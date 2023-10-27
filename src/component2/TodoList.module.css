@@ -1,0 +1,27 @@
+.list{
+  margin-top: 40px;
+  text-align: center;
+}
+.listitem{
+ border: 1px solid #333;
+ border-radius: 8px;
+ padding: 10px 20px;
+}
+.listitem:not(:last-child){
+  margin-bottom: 15px;
+}
+.title{
+  margin-bottom: 10px;
+}
+p{
+  margin-bottom: 10px;
+}
+.remove{
+  padding: 10px 30px;
+  border-radius: 8px;
+  border: 1px solid #555;
+}
+.remove:hover{
+  background: #000;
+  color:#fff;
+}

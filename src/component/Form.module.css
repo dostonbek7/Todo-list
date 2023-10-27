@@ -1,0 +1,36 @@
+.area{
+  padding: 15px;
+  border: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+  min-height: 250px;
+}
+.text{
+  width: 90%;
+  font-size: 16px;
+  padding: 5px 20px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #222;
+
+}
+.btn{
+  padding: 10px 40px;
+  border-radius: 8px;
+  background: linear-gradient(to right, rgba(225, 107, 16, 0.874),rgb(41, 7, 165));
+  color: #fff;
+}
+.row{
+  margin-bottom: 10px;
+}
+.row span{
+  font-size: 20px;
+}
+.row input{
+  font-size: 10px;
+  margin-left: 10px;
+}
